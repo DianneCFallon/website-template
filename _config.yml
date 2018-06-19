@@ -1,20 +1,20 @@
 # Site Information
 
-name: Digital Humanities Research Institute
-description: Digital Humanities Research Institute
+name: ME.Digital Humanities Institute
+description: ME.Digital Humanities Institute
 url: dhinstitutes.org
-title: Digital Humanities Research Institute
-host-institution: the Graduate Center, CUNY
+title: ME.Digital Humanities Institute
+host-institution: York County Community College
 host-institution-url: https://www.gc.cuny.edu
-date-range: June 11-20, 2018
+date-range: September 2018 - May 2018
 apply-link: 
 author:
   name: GC Digital Initiatives
-  email: info@dhinstitutes.org
+  email: dfallon@yccc.edu
   url: https://gcdi.commons.gc.cuny.edu/
   twitter: Digital_Fellows
   github: http://github.com/GCDigitalFellows
-  address: Digital Scholarship Lab, Room 7414<br>The Graduate Center, CUNY<br>365 Fifth Avenue<br />New York, NY 10016<br>
+  address: York County Community College<br>112 College Drive<br>Wells, ME 04090<br>
   description: GC Digital Initiatives builds and sustains an active community around the shared idea of a "Digital GC," where scholars and technologists explore new modes of inquiry that thoughtfully integrate digital tools and methods into the research, teaching, and service missions of the institution. Learn more on our <a href="https://gcdi.commons.gc.cuny.edu/about/">website</a>.
 
 
