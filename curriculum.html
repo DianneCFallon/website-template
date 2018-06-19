@@ -17,40 +17,40 @@ layout: default
     <div class="col-md-10">
 
       <p>More information curriculum coming soon! </p>
-    //ME.Digital Humanities Institute. Workshops build on each other such that successive workshops use skills developed in earlier ones. All participants attend workshops on core skills, then choose which skills they wish to develop further through advanced workshops. Workshop descriptions are subject to small changes before June.</p>
+    <!-- ME.Digital Humanities Institute. Workshops build on each other such that successive workshops use skills developed in earlier ones. All participants attend workshops on core skills, then choose which skills they wish to develop further through advanced workshops. Workshop descriptions are subject to small changes before June.</p> -->
 
     </div>
   </div>
 
-    <div class="col-md-6 curriculum-box-offset offset-md-3">
-      <table class="table table-striped" id="top">
+    <!-- <div class="col-md-6 curriculum-box-offset offset-md-3"> -->
+<!-- //      <table class="table table-striped" id="top"> -->
 
 
-	{% for course in site.courses %}
-	<tr>
-	  <td>{{ course.name }}</td>
-	  <td><a href="#{{ course.link-reference }}">details</a></td>
-	  <td><a href="{{ course.url }}" target="_blank">repo</a></td>
-	</tr>
-      {% endfor %}
+	<!-- {% for course in site.courses %} -->
+	<!-- <tr> -->
+	  <!-- <td>{{ course.name }}</td> -->
+	  <!-- <td><a href="#{{ course.link-reference }}">details</a></td> -->
+	  <!-- <td><a href="{{ course.url }}" target="_blank">repo</a></td> -->
+	<!-- </tr> -->
+      <!-- {% endfor %} -->
 
-      </table>
-    </div>
+      <!-- </table> -->
+    <!-- </div> -->
 
-{% for course in site.courses %}
-  <div class="row">
-    <div class="col-md-8 offset-md-2">
-      <div class="card" id="{{ course.link-reference }}">
-        <div class="card-block">
-          <div class="btn-group btn-group-sm pull-right" role="group" aria-label="{{ course.name }}">
-            <a href="{{ course.url }}" class="btn btn-primary"><i class="fa fa-github"></i></a>
-            <a href="#content" class="btn btn-primary"><i class="fa fa-chevron-up"></i></a>
-          </div>
-          <h4 class="card-title"><a href="{{ course.link-reference }}">{{ course.name }}</a></h4>
+<!-- {% for course in site.courses %} -->
+  <!-- <div class="row"> -->
+    <!-- <div class="col-md-8 offset-md-2"> -->
+      <!-- <div class="card" id="{{ course.link-reference }}"> -->
+        <!-- <div class="card-block"> -->
+          <!-- <div class="btn-group btn-group-sm pull-right" role="group" aria-label="{{ course.name }}"> -->
+            <!-- <a href="{{ course.url }}" class="btn btn-primary"><i class="fa fa-github"></i></a> -->
+            <!-- <a href="#content" class="btn btn-primary"><i class="fa fa-chevron-up"></i></a> -->
+          <!-- </div> -->
+          <!-- <h4 class="card-title"><a href="{{ course.link-reference }}">{{ course.name }}</a></h4> -->
 
-          <p class="card-text">
-	    {{ course.description }}
-	  </p>
+          <!-- <p class="card-text"> -->
+	    <!-- {{ course.description }} -->
+	  <!-- </p> -->
         </div>
       </div>
     </div>
